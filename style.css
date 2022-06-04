@@ -1,8 +1,7 @@
  #title {
   font-family:'Courier New', Courier, monospace;
   text-align: center;
-  background: -webkit-linear-gradient(black,blue
-  );
+  background: -webkit-linear-gradient(black,blue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
