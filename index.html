@@ -1,11 +1,37 @@
+<link  rel="stylesheet" href=style.css>
+
+
+<head>
+  <title>Tamana and Erik page</title>
+</head>
+
 <main>
+
 <body>
   <h1 id="title">Build a Survery Form with us!</h1>
   <p id="description">Welcome to out page // Tamana and Erik</p>
+  
   <form action="" id="survey-form">
-    <p>Name: <input id="name" type="text" placeholder="Put your name here"><button type="submit">submit</button></p>
-    <p>Email: <input id="email" type="email" placeholder="Put your email"><button type="submit">submit</button></p>
-    <p>Numer: <input id="number" type="number" placeholder="Put your number here"><button type="submit">submit</button></p>
+  <label for="" id="name-label"><p>Name: <input id="name" type="text" placeholder="Put your name here" required><button type="submit">submit</button></p></label>
+  <label for="" id="email-label"><p>Email: <input id="email" type="email" placeholder="Put yout email" required><button type="submit">submit</button></p></label>
+  <label for="" id="number-label"><p>Number: <input type="number" id="number" placeholder="add yor number" min="0" max="10"></p></label>
+  <label for="">agree<input type="radio" name="agreement" value ="agree" id=""></label>
+  <label for="">disagree<input type="radio" name="agreement" value="disagree" id=""></label>
+  
+  <select name="" id="dropdown" value ="dropdown" placeholder="Select one">
+    <option value="">select one</option>
+    <option value="">accept</option>
+    <option value="">refuse</option>
+  </select>
+
+  <label for="">ok<input type="checkbox" name="checkbox" id="" value="ok"></label>
+  <label for="">not ok <input type="checkbox" name="checkbox" id="" value="not ok"></label>
+  <label for="">equal<input type="checkbox" name="checkbox" id="" value="equal"></label>
+  <textarea name="" id="" cols="30" rows="10">
+  enter here
+  </textarea>
+  <button type="submit" value="submit" id="submit">submit</button>
+  
   </form>
-</body>
+  </body>
 </main>
